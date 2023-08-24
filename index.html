@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shree Multispecialty Dental Clinic in Chimur, Maharashtra offers comprehensive dental services for all ages. Visit our website to book an appointment or call us at 9340389430.">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- <script src="script.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="./resources/nav_icon.ico" type="image/x-icon">
+    <title>Shree Multispeciality Dental Clinic</title>
+    <style>
+        @media (max-width: 780px) {
+            #navbar img {
+                display: none;
+            }
+
+            #navbar .navbar-brand {
+                padding-left: 0;
+            }
+
+            #navbar .navbar-toggler {
+                margin-right: 0;
+            }
+
+            #carouselExampleDark {
+                display: none;
+            }
+        }
+
+        body {
+            background-image: url("/resources/bg1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <img src="./resources/nav_icon.ico" alt="Icon" height="40">
+                Shree Multispeciality Dental Clinic
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav justify-content-center" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse    justify-content-center " id="navbarNav">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#About">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Appointment">Book an Appointment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item align-content-end">
+                        <!-- Facebook -->
+                        <!-- <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#" role="button"><i
+                                class="bi bi-facebook"></i></a> -->
+                        
+                        <!--Call -->
+                        <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            href="tel:+919340389430" role="button">
+                            <i class="bi bi-telephone"></i></a>
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            href="https://www.instagram.com/_shree_dental/?igshid=ZDdkNTZiNTM%3D" role="button">
+                            <i class="bi bi-instagram"></i></a>
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            href="https://wa.me/+919340389430" role="button">
+                            <i class="bi bi-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./resources/car1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold bg-gradient" style="color:red;">It's time to smile again...!!!</h2>
+                    <p class="lh-base fs-6 fw-bold text-light bg-gradient">Shree Dental Multispeciality Clinic in Chimur
+                        offers the best dental care services in the area. From general dentistry to cosmetic dentistry,
+                        our experienced team of dentists provides comprehensive care for all your oral health needs.
+                        Visit us today for a healthier and brighter smile!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./resources/car3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold bg-gradient" style="color:rgb(44, 147, 56);">Your Smile our Responsiblity</h2>
+                    <p class="lh-base fs-6 fw-bold bg-gradient" style="color:rgb(209, 9, 219);">
+                        We believe that a healthy smile is key to a happier you. From routine cleanings and checkups to
+                        advanced treatments, we have everything you need to achieve a healthier, happier you with a
+                        beautiful smile.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="./resources/car2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="fw-bold bg-gradient">A place with Dental excellence...!!!</h2>
+                    <p class="lh-base fs-6 fw-bold bg-gradient">We are driven by a team of not only highly experienced
+                        dental surgeons but also a staff that constantly strives to offer patients the much-needed
+                        support and assistance during the treatment. The amicable and welcoming staff at the clinic
+                        takes care of the needs of patients.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="About" class="container bg-light fade-in-up">
+        <div class="row align-items-center">
+            <div class="col-md-4 order-md-1 text-center">
+                <div class="container bg-light p-3 my-5">
+                    <img src="./resources/dr.jpg" alt=""
+                        class="img-fluid rounded-circle">
+                </div>
+            </div>
+            <div class="col-md-8 order-md-2">
+                <div class="card-body text-justify">
+                    <h3 class="card-title text-center">About us</h3>
+                    <p class="card-text">Greetings! I am Dr. Adarsh Pal, the owner of Shree Multispeciality Dental
+                        Clinic, Chimur (Maharashtra). I am proud to offer high quality dental care services to the local
+                        community. Our clinic is equipped with the latest technology and we strive to provide our
+                        patients with the best possible care. At Shree Multispeciality Dental Clinic, we specialize in
+                        preventive, cosmetic, and restorative dentistry. We offer a wide range of services including
+                        teeth whitening, composite fillings, crowns, bridges, veneers, and dental implants. We also
+                        provide root canal treatments and periodontal care. Our staff is friendly and knowledgeable, and
+                        we are committed to ensuring our patients have a positive experience. We strive to make sure
+                        that each patient’s dental care needs are met in a comfortable and relaxed environment. If you
+                        are looking for a dentist in Chimur, we invite you to come and experience the quality care we
+                        provide at Shree Multispeciality Dental Clinic.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Appointment" class="align-content-center my-5 bg-dark fade-in-up">
+        <div class="d-flex  justify-content-center p-3">
+            <h2 class="text-white">Book an Appointment</h2>
+        </div>
+        <div class="d-flex align-items-stretch justify-content-lg-around container">
+            <!-- Form part starts form here -->
+            <div class="container p-3 w-75 align-items-center">
+                <form class=" p-3 align-items-center a-form appointment-form" id="appointment-form"  name="appointment-form" method="POST">
+                    <div class="form-group mb-3">
+                        <!-- <label for="name">Name:</label> -->
+                        <input type="text" class="form-control" id="aname" name="Name" placeholder="Enter your name*"
+                            required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <!-- <label for="email">Email:</label> -->
+                        <input type="email" class="form-control" id="aemail" name="Email" placeholder="Enter your email*"
+                            required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <!-- <label for="phone">Phone:</label> -->
+                        <input type="tel" class="form-control" id="aphone" name="Phone"
+                            placeholder="Enter your phone number*" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <!-- <label for="date">Date:</label> -->
+                        <input type="date" class="form-control" id="adate" name="Date" required>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="submit" class="btn btn-primary" id="submit-appointment">Book an
+                            Appointment</button>
+
+                    </div>
+                </form>
+            </div>
+
+
+            <!-- Form part ends here -->
+        </div>
+    </div>
+    <div id="Services" class="align-content-center p-5 my-5 bg-light fade-in-up">
+        <div class="d-flex justify-content-center p-3">
+            <h2>Our Services</h2>
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/tc.jpeg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Teeth Cleaning</h5>
+                            <p class="card-text">A professional cleaning of the teeth to remove plaque, tartar, and
+                                stains.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/tw.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tooth Whitening</h5>
+                            <p class="card-text">A cosmetic dental procedure that involves the use of a bleaching agent
+                                to make teeth whiter and brighter.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/di.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dental Implants</h5>
+                            <p class="card-text">Dental implants are a popular and effective way to restore missing
+                                teeth and improve your smile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/tjm.webp" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TJM- Joint point to Head</h5>
+                            <p class="card-text">TMJ surgery corrects jaw joint issues to relieve pain and improve
+                                function, performed by an oral and maxillofacial surgeon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/cod.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cosmetic Dentistry</h5>
+                            <p class="card-text">Cosmetic dentistry can enhance the appearance of your teeth and improve
+                                your smile through various procedures such as teeth whitening, veneers, and bonding.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/gdt.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gum Disease Treatment</h5>
+                            <p class="card-text">Gum disease treatment aims to prevent, diagnose, and treat infections
+                                and inflammation of the gums and supporting structures of the teeth, which can cause
+                                tooth loss if not managed.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/ds.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dental Surgery</h5>
+                            <p class="card-text">Dental surgery refers to a range of dental procedures that involve
+                                surgical techniques, such as tooth extraction, dental implant placement, and corrective
+                                jaw surgery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/ot.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Orthodontic Treatment</h5>
+                            <p class="card-text">Orthodontic treatment involves correcting misaligned teeth and jaws
+                                using braces, clear aligners, or other dental appliances to improve dental function and
+                                aesthetics.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/chd.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Child Dentistry</h5>
+                            <p class="card-text">Child dentistry or pediatric dentistry aims to promote dental health
+                                for infants, children, and adolescents through preventative care and treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/ld.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Laser Dentistry</h5>
+                            <p class="card-text">Laser dentistry is a safe and precise dental treatment option that uses
+                                a laser to perform a variety of procedures, including gum reshaping, cavity treatment,
+                                and teeth whitening.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/df.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dental Filling</h5>
+                            <p class="card-text">Dental filling is a dental procedure where a decayed or damaged tooth
+                                is restored by removing the affected area and filling it with a dental material, such as
+                                composite resin or amalgam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/wtr.jpeg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Wisdom Tooth removal</h5>
+                            <p class="card-text">Wisdom tooth removal is the extraction of the third molars located at
+                                the back of the mouth, often performed due to overcrowding or impaction issues.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/rc.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Root Canal</h5>
+                            <p class="card-text">Root canal treatment removes infected tooth pulp, cleans and disinfects
+                                the area, and fills it to prevent further infection.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/fmr.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Full Mouth Rehabitation</h5>
+                            <p class="card-text">Full mouth rehabilitation involves restoring or replacing several
+                                damaged or missing teeth to improve the overall function and appearance of the mouth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card fade-in-up">
+                        <img src="./resources/te.jpg" class=" img-fluid card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tooth Extraction</h5>
+                            <p class="card-text">Tooth extraction is a dental procedure where a tooth is removed from
+                                its socket in the bone, typically due to damage, decay, or overcrowding.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <section id="Contact">
+        <div class="container-fluid py-5 bg-light">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <h2 class="text-dark mb-4 text-center">Contact Us</h2>
+                    <p class="text-left text-dark mb-5">Please fill out the form below to get in touch with us. We'll
+                        get back to you as soon as possible.</p>
+                        <form class="p-3 contact-form" id="contact-form" name="contact-form" method="POST">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="cname" name="Name" placeholder="Enter your name*"
+                                required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="cemail" name="Email"
+                                placeholder="Enter your email*" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="cphone" name="Phone"
+                                placeholder="Enter your phone number*" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="cfeedback" name="Feedback" rows="4"
+                                placeholder="How may we assist you...?*" required></textarea>
+                        </div>
+                        <div class="text-center mb-3">
+                            <button type="submit" class="btn btn-primary" id="submit-contact"
+                                >Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-8 mt-5 mt-md-0">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d309.54115164723044!2d79.37822882958376!3d20.498529193291695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd34d4612909d11%3A0x6ad562bfa60de5f6!2sShree%20Multi%20Speciality%20Dental%20Clinic%20Chimur!5e0!3m2!1sen!2sin!4v1678918187866!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white" id="footer">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <!-- <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                    href="https://www.facebook.com/tanmay.pal.5454" role="button"><i class="bi bi-facebook"></i></a> -->
+
+                <!--Call -->
+                        <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                            href="tel:+919340389430" role="button">
+                            <i class="bi bi-telephone"></i></a>
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle"
+                    href="https://www.instagram.com/_shree_dental/?igshid=ZDdkNTZiNTM%3D" role="button">
+                    <i class="bi bi-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="https://wa.me/+919340389430"
+                    role="button"><i class="bi bi-whatsapp"></i></a>
+
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <!-- <h5>A Genuine Smile comes from heart, but a healthy smile needs good Dental Care    </h5> -->
+                <p>
+                    Thank you for choosing us for your oral health needs.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                "A Genuine Smile comes from heart, but a healthy smile needs good Dental Care."
+                <!-- <a class="text-white text-decoration-none" href="https://facebook.com/tanmaypal.5454">Tarun</a> -->
+            </div>
+            <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    
+    <!-- Scripts -->
+    <script src="./js/msg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+
+
+
+</body>
+
+</html>
